@@ -1,0 +1,11 @@
+body {
+  background-color: #000;
+  color: #FFF;
+  font-family: 'inconsolatamedium';
+  font-size: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
