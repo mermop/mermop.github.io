@@ -95,6 +95,50 @@ $( document ).ready(function() {
     $( '#reveal-24' ).toggleClass('hidden');
     $( '#more-24' ).toggleClass('clicked');
   });
+  $( '#more-25' ).click(function () {
+    $( '#reveal-25' ).toggleClass('hidden');
+    $( '#more-25' ).toggleClass('clicked');
+  });
+  $( '#more-26' ).click(function () {
+    $( '#reveal-26' ).toggleClass('hidden');
+    $( '#more-26' ).toggleClass('clicked');
+  });
+  $( '#more-27' ).click(function () {
+    $( '#reveal-27' ).toggleClass('hidden');
+    $( '#more-27' ).toggleClass('clicked');
+  });
+  $( '#more-28' ).click(function () {
+    $( '#reveal-28' ).toggleClass('hidden');
+    $( '#more-28' ).toggleClass('clicked');
+  });
+  $( '#more-29' ).click(function () {
+    $( '#reveal-29' ).toggleClass('hidden');
+    $( '#more-29' ).toggleClass('clicked');
+  });
+  $( '#more-30' ).click(function () {
+    $( '#reveal-30' ).toggleClass('hidden');
+    $( '#more-30' ).toggleClass('clicked');
+  });
+  $( '#more-31' ).click(function () {
+    $( '#reveal-31' ).toggleClass('hidden');
+    $( '#more-31' ).toggleClass('clicked');
+  });
+  $( '#more-32' ).click(function () {
+    $( '#reveal-32' ).toggleClass('hidden');
+    $( '#more-32' ).toggleClass('clicked');
+  });
+  $( '#more-33' ).click(function () {
+    $( '#reveal-33' ).toggleClass('hidden');
+    $( '#more-33' ).toggleClass('clicked');
+  });
+  $( '#more-34' ).click(function () {
+    $( '#reveal-34' ).toggleClass('hidden');
+    $( '#more-34' ).toggleClass('clicked');
+  });
+  $( '#more-35' ).click(function () {
+    $( '#reveal-35' ).toggleClass('hidden');
+    $( '#more-35' ).toggleClass('clicked');
+  });
   $( '#more-99' ).click(function () {
     $( '#reveal-99' ).toggleClass('hidden');
     $( '#more-99' ).toggleClass('clicked');
