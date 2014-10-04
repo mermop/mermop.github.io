@@ -98,6 +98,7 @@ $( document ).ready(function() {
   $( '#more-25' ).click(function () {
     $( '#reveal-25' ).toggleClass('hidden');
     $( '#more-25' ).toggleClass('clicked');
+    console.log('hello')
   });
   $( '#more-26' ).click(function () {
     $( '#reveal-26' ).toggleClass('hidden');
