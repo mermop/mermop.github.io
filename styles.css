@@ -36,7 +36,8 @@ img {
 }
 
 .more {
-  border-bottom: 2px dotted rgb(52,88,186);
+  border-bottom: 2px solid #000;
+  cursor: pointer;
 }
 
 .clicked {
