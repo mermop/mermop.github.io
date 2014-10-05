@@ -23,6 +23,9 @@ $( document ).on( 'click', '[id^=more]', function() {
     score_update(numberOfClickedElements);
     $this.addClass('ever-clicked');
   }
+  if(!$reveal.visible()) {
+    $reveal[0].scrollIntoView()
+  }
 
 } );
 
