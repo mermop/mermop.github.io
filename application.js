@@ -13,7 +13,7 @@ $( document ).on( 'click', '[id^=more]', function() {
   $this.toggleClass( 'clicked' );
   $reveal.toggleClass( 'hidden' );
 
-  if($this.hasClass('ever-clicked') == false) { 
+  if(!$this.hasClass('ever-clicked')) { 
     numberOfClickedElements++;
     score_update(numberOfClickedElements);
     $this.addClass('ever-clicked');
