@@ -1,4 +1,5 @@
 ## Hello this is internet
 
 TODO:
-* Fix the javascript. Something about data attributes
+* Auto scroll to new content
+* Counter for unclicked lines
