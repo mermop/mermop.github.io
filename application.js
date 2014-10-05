@@ -26,13 +26,6 @@ $( document ).on( 'click', '[id^=more]', function() {
     $this.addClass('ever-clicked');
   }
 
-  //Scroll smoothly 
-  if(!$reveal.visible()) {
-    $('html, body').animate({
-      scrollTop: $reveal.offset().top
-    }, 500);
-  }
-
 } );
 
 function score_update(score) {
