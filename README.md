@@ -1,5 +1,6 @@
-## Hello this is internet
+## This is basically my CV
 
 TODO:
-* Indicator for newest content
-* consider some kind of auto scroll
+* portfolio pieces
+* get auto scroll right - I think it should be aligned to bottom
+* animation for new content?
