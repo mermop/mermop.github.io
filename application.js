@@ -9,9 +9,14 @@ $( document ).ready(function() {
 $( document ).on( 'click', '[id^=more]', function() {
   var $this = $( this ), // clicked element
     $reveal = $('#' + this.id.replace( /^more/, 'reveal' )); // matching 'reveal'
+  $('.marked').removeClass('marked');
+  $('.marker').remove();
 
   $this.toggleClass( 'clicked' );
   $reveal.toggleClass( 'hidden' );
+
+  $reveal.addClass( 'marked' );
+  $reveal.prepend( '<span class="marker"></span>' )
 
   if(!$this.hasClass('ever-clicked')) { 
     numberOfClickedElements++;

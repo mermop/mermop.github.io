@@ -67,6 +67,22 @@ img {
   font-size: 0.5em;
 }
 
+.marked {
+  position: relative;
+}
+
+.marker {
+  position: absolute;
+  left: -0.5em;
+  top: 50%;
+  background-color: #AC0909;
+  height: 5px;
+  width: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
 /**
  * For modern browsers
  * 1. The space content is one way to avoid an Opera bug when the
