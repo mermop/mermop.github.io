@@ -1,5 +1,9 @@
-var numberOfClickableElements = $('[id^=more]').length;
+var numberOfClickableElements;
 var numberOfClickedElements = 0;
+
+$( document ).ready(function() {
+  var numberOfClickableElements = $('[id^=more]').length;
+});
 
 // take all clicks to document that have an id starting with 'more'
 $( document ).on( 'click', '[id^=more]', function() {

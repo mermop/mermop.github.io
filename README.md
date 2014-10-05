@@ -1,4 +1,5 @@
 ## Hello this is internet
 
 TODO:
-* Auto scroll to new content if it is off the page
+* Indicator for newest content
+* consider some kind of auto scroll
