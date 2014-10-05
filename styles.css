@@ -45,7 +45,7 @@ img {
 }
 
 .clicked {
-  border-bottom: transparent;
+  border-bottom: 2px solid #EEE;
 }
 
 .third {
