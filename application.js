@@ -15,16 +15,22 @@ $( document ).on( 'click', '[id^=more]', function() {
   $this.toggleClass( 'clicked' );
   $reveal.toggleClass( 'hidden' );
 
+  //Add red marker
   $reveal.addClass( 'marked' );
-  $reveal.prepend( '<span class="marker"></span>' )
+  $reveal.prepend( '<a class="marker" href=#'+ $this[0].id +'></a>' )
 
+  //Update score
   if(!$this.hasClass('ever-clicked')) { 
     numberOfClickedElements++;
     score_update(numberOfClickedElements);
     $this.addClass('ever-clicked');
   }
+
+  //Scroll smoothly 
   if(!$reveal.visible()) {
-    $reveal[0].scrollIntoView()
+    $('html, body').animate({
+      scrollTop: $reveal.offset().top
+    }, 500);
   }
 
 } );
