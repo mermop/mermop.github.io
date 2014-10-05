@@ -58,6 +58,15 @@ img {
   padding: 1em;
 }
 
+.score {
+  position: fixed;
+  color: #FFF;
+  background-color: rgba(0,0,0,0.5);
+  bottom: 0;
+  padding: 1em;
+  font-size: 0.5em;
+}
+
 /**
  * For modern browsers
  * 1. The space content is one way to avoid an Opera bug when the
