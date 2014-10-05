@@ -4,6 +4,10 @@ body {
   font-size: 20px;
 }
 
+br {
+  line-height: 1.5;
+}
+
 .container {
   background-color: #FFF;
   color: #000;
