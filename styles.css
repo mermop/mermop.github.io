@@ -73,9 +73,9 @@ img {
 
 .marker {
   position: absolute;
-  left: -0.5em;
+  left: -15px;
   top: 50%;
-  background-color: #AC0909;
+  background-color: rgba(172, 9, 9, 0.34);
   height: 5px;
   width: 5px;
   -webkit-border-radius: 5px;
