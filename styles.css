@@ -91,6 +91,11 @@ img {
   box-sizing: border-box;
 }
 
+.testimonial {
+  font-style: italic;
+  font-size: 1.2em;
+}
+
 /**
  * For modern browsers
  * 1. The space content is one way to avoid an Opera bug when the
