@@ -1,99 +1,51 @@
-body {
-  background-color: #000;
-  font-family: 'inconsolatamedium';
-  font-size: 20px;
-}
-
-br {
-  line-height: 1.5;
-}
-
 .container {
-  background-color: #FFF;
-  color: #000;
-  padding: 1em;
-  max-width: 600px;
+  max-width: 40rem;
   margin: 0 auto;
 }
 
-.image-centred {
-  display: block;
-  margin: 0 auto;
-}
-
-.left-illustration {
-  max-width: 50%;
-  float: left;
-}
-
-.right-illustration {
-  max-width: 50%;
-  float: right;
-}
-
-img {
-  max-width: 100%;
-}
-
-.hidden {
-  display: none;
-}
-
-.more {
-  border-bottom: 2px solid #000;
-  cursor: pointer;
-}
-
-.clicked {
-  border-bottom: 2px solid #EEE;
-}
-
-.third {
-  float: left;
-  width: 33%;
+.name {
   text-align: center;
 }
-.two-thirds {
-  float: left;
-  width: 66%;
-}
 
-.all-padding {
-  padding: 1em;
-}
-
-.score {
-  position: fixed;
-  color: #FFF;
-  background-color: rgba(0,0,0,0.5);
-  bottom: 0;
-  padding: 1em;
-  font-size: 0.5em;
-}
-
-.marked {
+.venn {
   position: relative;
+  height: 25rem;
 }
 
-.marker {
+.venn .label {
   position: absolute;
-  left: -15px;
-  top: 50%;
-  background-color: rgba(172, 9, 9, 0.34);
-  height: 5px;
-  width: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
+  border-left: 0.25rem dashed black;
+  left: 50%;
+  top: -1rem;
+  height: 55px;
+}
+
+.venn div {
+  width: 50%;
+  position: absolute;
+  text-align: center;
+  height: 20rem;
+  width: 20rem;
+  border-radius: 20rem;
+  padding: 5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.venn .left {
+  left: 3rem;
+  background-color: rgba(191, 104, 55, 0.5);
+  padding-top: 8.5rem;
+}
+
+.venn .right {
+  right: 3rem;
+  background-color: rgba(55, 104, 191, 0.5);
+  padding-top: 10rem;
 }
 
 * {
   box-sizing: border-box;
-}
-
-.testimonial {
-  font-style: italic;
-  font-size: 1.2em;
 }
 
 /**
