@@ -1,3 +1,7 @@
+body {
+  font-family: Otari, Helvetica;
+}
+
 .container {
   max-width: 40rem;
   margin: 0 auto;
@@ -5,6 +9,10 @@
 
 .name {
   text-align: center;
+  font-size: 3em;
+  font-family: Drina, Helvetica;
+  font-weight: normal;
+  font-style: normal;
 }
 
 .venn {
@@ -21,27 +29,77 @@
 }
 
 .venn div {
+  color: #FFFFFF;
   width: 50%;
   position: absolute;
   text-align: center;
-  height: 20rem;
-  width: 20rem;
-  border-radius: 20rem;
+  background-image: radial-gradient(circle at center, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 70%, rgba(0, 0, 0, 0.1) 80%, rgba(0, 0, 0, 0.3) 100%);
+  height: 19.5rem;
+  width: 19.5rem;
+  border-radius: 19.5rem;
   padding: 5rem;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
+  font-size: 2em;
+  mix-blend-mode: multiply;
+}
+
+.venn .left:hover {
+  animation-duration: 2s;
+  animation-name: left-blob;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+.venn .right:hover {
+  animation-duration: 2s;
+  animation-name: right-blob;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
 }
 
 .venn .left {
-  left: 3rem;
-  background-color: rgba(191, 104, 55, 0.5);
-  padding-top: 8.5rem;
+  left: 2.5rem;
+  background-color: hsla(10, 80%, 20%, 0.6);
+  padding-top: 6rem;
 }
 
 .venn .right {
-  right: 3rem;
-  background-color: rgba(55, 104, 191, 0.5);
+  right: 2.5rem;
+  background-color: hsla(220, 80%, 20%, 0.6);
   padding-top: 10rem;
+}
+
+@keyframes left-blob {
+  from {
+    height: 19.5rem;
+    width: 19.5rem;
+    border-radius: 19.5rem;
+    background-color: hsla(10, 80%, 20%, 0.6);
+  }
+
+  to {
+    height: 20.5rem;
+    width: 20.5rem;
+    border-radius: 20.5rem;
+    background-color: hsla(10, 80%, 30%, 0.6);
+  }
+}
+
+@keyframes right-blob {
+  from {
+    height: 19.5rem;
+    width: 19.5rem;
+    border-radius: 19.5rem;
+    background-color: hsla(220, 80%, 20%, 0.6);
+  }
+
+  to {
+    height: 20.5rem;
+    width: 20.5rem;
+    border-radius: 20.5rem;
+    background-color: hsla(220, 80%, 30%, 0.6);
+  }
 }
 
 * {
