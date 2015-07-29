@@ -20,6 +20,8 @@ h2 {
   border-bottom: 3px dotted #666;
 }
 
+/*clickable*/
+
 .hidden {
   display: none;
 }
@@ -33,6 +35,27 @@ h2 {
   border-bottom: 2px solid #EEE;
 }
 
+/*select*/
+
+.select {
+  border-bottom: 2px solid #000;
+  cursor: pointer;
+}
+
+.select.selected {
+  border-bottom: 2px solid #FF0000;
+  cursor: pointer;
+}
+
+.select.unselected {
+  border-bottom: 2px solid #EEE;
+  color: #EEE;
+  cursor: pointer;
+}
+
+.or.unselected {
+  color: #EEE;
+}
 
 * {
   box-sizing: border-box;
