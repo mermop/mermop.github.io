@@ -49,18 +49,13 @@ ul li {
 }
 
 .add {
+  width: 100%;
   cursor: pointer;
-  list-style: none;
-  margin-top: -0.5em;
+  font-size: 1.5em;
+  background-color: rgba(178, 178, 224, 0.2);
+  text-align: center;
 }
 
-.add li {
-  margin-top: 0;
-}
-
-.add span {
-  font-size: 2em;
-}
 
 .header {
   border-bottom: 3px dotted #666;

@@ -34,7 +34,7 @@ function update_contact_links () {
   } else {
     phrase = phrase + " " + selected_week + "."
   }
-  $('#twitter-link').attr("href", "https://twitter.com/intent/tweet?text=%40merxplat%20" + phrase)
-  $('#email-link').attr("href", "mailto:hello@merr.in?Subject=" + phrase)
+  $('#twitter-link').attr("href", "https://twitter.com/intent/tweet?text=%40merxplat%20" + encodeURI(phrase) )
+  $('#email-link').attr("href", "mailto:hello@merr.in?Subject=" + encodeURI(phrase) )
 
 }
