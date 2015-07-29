@@ -5,35 +5,65 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Merrin Macleod is good at things">
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  <link rel="stylesheet" type="text/css" href="MyFontsWebfontsKit.css">
+  <link rel="stylesheet" type="text/css" href="styles/styles.css">
+  <link rel="stylesheet" type="text/css" href="webfonts/myfonts.css">
   <script src="jquery/js/jquery-1.9.1.js"></script>
   <script src="jquery/js/jquery-ui-1.10.3.custom.min.js"></script>
-  <script src="application.js"></script>
+  <script src="scripts/incomplete_lists.js"></script>
+  <script src="scripts/clickable.js"></script>
 </head>
 
 <body>
   <div class="container">
-    <h1 class="name"><span id="merrin">Merrin</span> Macleod</h1>
-    <div class="venn">
-      <div class="left drag">Designer</div>
-      <div class="right drag">Developer</div>
+    <h1 class="name">Merrin Macleod</h1>
+    <h2>I make things on the web</h2>
+    <p>I am a designer. Here is an incomplete list of things that describe things I do:</p>
+    <ul id="what_i_do_list">
+      <li>Web design</li>
+      <li>UX design</li>
+      <li>Branding</li>
+      <li>Front-end development</li>
+    </ul>
+    <ul>
+      <li>
+        <span id="what_i_do_add">+</span>
+      </li>
+    </ul>
+    <h2>You can pay me to do this for you</h2>
+    <p>Here is an incomplete list of circumstances in which you should get in touch:</p>
+    <ul id="talk_to_me_if_list">
+      <li>You have some kind of tiny but exciting project or campaign that you want to get up quickly.</li>
+      <li>You are creating a web or mobile application and need some lean UX, design, and front-end presence in your development team.</li>
+    </ul>
+    <ul>
+      <li><span id="talk_to_me_if_add">+</span></li>
+    </ul>
+    <div class="coffee">
+      Let's get coffee <span id="more-thisweek" class="more">this week</span> or <span class="more" id="more-nextweek">next week</span>.
+      <div id="reveal-thisweek" class="hidden marked"><span class="marker"></span>
+        <p class="time-slot" id="this-afternoon">This afternoon</p>
+        <p class="time-slot" id="tomorrow-morning">Tomorrow late morning</p>
+        <p class="time-slot" id="tomorrow-afternoon">Tomorrow afternoon</p>
+        <p class="time-slot" id="friday-morning">Friday late morning</p>
+        <p class="time-slot" id="friday-afternoon">Friday early afternoon</p>
+      </div>
+      <div class="hidden" id="reveal-nextweek">
+        <p class="time-slot" id="next-monday-morning">Next Monday morning</p>
+        <p class="time-slot" id="next-monday-afternoon">Next Monday afternoon</p>
+        <p class="time-slot" id="next-tuesday-morning">Next Tuesday morning</p>
+        <p class="time-slot" id="next-tuesday-afternoon">Next Tuesday late afternoon</p>
+        <p class="time-slot" id="next-wednesday-morning">Next Wednesday morning</p>
+        <p class="time-slot" id="next-wednesday-afternoon">Next Wednesday late afternoon</p>
+        <p class="time-slot" id="next-thursday-morning">Next Thursday morning</p>
+        <p class="time-slot" id="next-thursday-afternoon">Next Thursday afternoon</p>
+        <p class="time-slot" id="next-friday-morning">Next Friday morning</p>
+        <p class="time-slot" id="next-friday-afternoon">Next Friday afternoon</p>
+      </div>
     </div>
-    <div class="details">
-      <div class="detail">
-        Available for hire.
-      </div>
-      <div class="detail">
-        Wellington, NZ/remote.
-      </div>
-      <div class="detail">
-        Get in touch.
-      </div>
-      <div class="detail">
-        <span class="contact"><a href="mailto:merrin.macleod@gmail.com">Email</a></span>
-        <span class="contact"><a href="http://www.twitter.com/merxplat">Twitter</a></span>
-        <span class="contact"><a href="http://www.github.com/mermop">GitHub</a></span>
-      </div>
+    <div class="contact">
+      <p>hello@merr.in</p>
+      <p>@merxplat</p>
+      <p>@mermop</p>
     </div>
   </div>
   <script>
