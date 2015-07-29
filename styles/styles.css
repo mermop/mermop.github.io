@@ -17,6 +17,37 @@ h2 {
   font-family: Drina, Helvetica;
   font-weight: normal;
   font-style: normal;
+  margin-bottom: 0;
+}
+
+.contact {
+  text-align: center;
+}
+
+.social-icon {
+  max-height: 2em;
+  margin: 1em 0.5em;
+}
+
+ul li {
+  margin-bottom: 1em;
+}
+
+.add {
+  cursor: pointer;
+  list-style: none;
+  margin-top: -0.5em;
+}
+
+.add li {
+  margin-top: 0;
+}
+
+.add span {
+  font-size: 2em;
+}
+
+.header {
   border-bottom: 3px dotted #666;
 }
 
