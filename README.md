@@ -1,6 +1,9 @@
-## This is basically my CV
+### hire.merr.in
 
-TODO:
-* portfolio pieces
-* get auto scroll right - I think it should be aligned to bottom
-* animation for new content?
+A little website for telling people I am great. 
+
+Current version is index.html at http://hire.merr.in
+
+Old versions are still live at http://hire.merr.in/clickathon.html and http://hire.merr.in/venn.html 
+
+Ducks/ is a talk I gave once about ducks and I put it up here to be able to link to it
